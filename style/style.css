@@ -118,3 +118,55 @@
   .offer-image-content{
     margin-top: 30px;
   }
+  /* Midnight party container  */
+  .midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+  .leftside-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .leftside-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriwea;
+    font-size: 64px;
+    font-weight: 900;
+  }
+  .leftside-content p{
+    color: rgb(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .rightside-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #midnight-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 250px;
+    margin-top: 30px;
+  }
